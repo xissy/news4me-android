@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RecomioNews</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="motto">나를 아는 뉴스</string>
+    
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    
+    <string name="app_id">642906452404778</string>
+    <string name="signin_by_facebook">SignIn by Facebook</string>
+    
+    <string name="prefs_name">RecomioNewsPrefsFile</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" xmlns:app="http://schemas.android.com/apk/res/io.recom.news">
+
+    <shared.ui.actionscontentview.ActionsContentView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/actionsContentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:actions_layout="@layout/actions_news"
+        app:actions_spacing="@dimen/actions_spacing"
+        app:spacing="@dimen/spacing_width"
+        app:swiping_type="full"
+        app:content_layout="@layout/list_news"
+        app:fade_max_value="@integer/default_pref_fade_max_value"
+        app:fade_type="actions"
+        app:fling_duration="@integer/default_pref_fling_delay"
+        app:shadow_drawable="@drawable/shadow"
+        app:shadow_width="@dimen/default_pref_shadow_width" />
+    <!-- android:layout_above="@id/divider" -->
+
+</RelativeLayout>
