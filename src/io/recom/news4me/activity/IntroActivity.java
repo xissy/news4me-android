@@ -1,6 +1,6 @@
 package io.recom.news4me.activity;
 
-import io.recom.news.R;
+import io.recom.news4me.R;
 import io.recom.news4me.adapter.IntroFragmentAdapter;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;

@@ -1,6 +1,6 @@
 package io.recom.news4me.fragment;
 
-import io.recom.news.R;
+import io.recom.news4me.R;
 import io.recom.news4me.activity.MainActivity;
 
 import java.util.Arrays;

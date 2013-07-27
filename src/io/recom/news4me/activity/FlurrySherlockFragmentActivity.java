@@ -1,6 +1,6 @@
 package io.recom.news4me.activity;
 
-import io.recom.news.R;
+import io.recom.news4me.R;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.flurry.android.FlurryAgent;

@@ -1,6 +1,6 @@
 package io.recom.news4me.adapter;
 
-import io.recom.news.R;
+import io.recom.news4me.R;
 
 import java.util.ArrayList;
 import java.util.List;

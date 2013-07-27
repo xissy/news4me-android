@@ -1,6 +1,6 @@
 package io.recom.news4me.activity;
 
-import io.recom.news.R;
+import io.recom.news4me.R;
 import io.recom.news4me.adapter.NewsActionListAdapter;
 import io.recom.news4me.adapter.articles.ArticlesListAdapter;
 import io.recom.news4me.adapter.articles.DeletedArticlesListAdapter;
