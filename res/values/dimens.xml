@@ -7,6 +7,6 @@
     <dimen name="divider_size">.9dp</dimen>
     <dimen name="divider_large_size">1.5dp</dimen>
     <dimen name="actions_spacing">0dp</dimen>
-    <dimen name="spacing_width">256dp</dimen>
+    <dimen name="spacing_width">64dp</dimen>
 
 </resources>

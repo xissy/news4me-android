@@ -1,6 +1,6 @@
-package io.recom.news.adapter;
+package io.recom.news4me.adapter;
 
-import io.recom.news.fragment.LogInFragment;
+import io.recom.news4me.fragment.LogInFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;

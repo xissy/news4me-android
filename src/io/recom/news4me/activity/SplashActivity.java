@@ -1,13 +1,11 @@
-package io.recom.news.activity;
+package io.recom.news4me.activity;
 
 import io.recom.news.R;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import com.actionbarsherlock.app.SherlockActivity;
-
-public class SplashActivity extends SherlockActivity {
+public class SplashActivity extends FlurrySherlockFragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +14,7 @@ public class SplashActivity extends SherlockActivity {
 	}
 
 	@Override
-	protected void onStart() {
+	public void onStart() {
 		super.onStart();
 
 		String prefsName = getString(R.string.prefs_name);

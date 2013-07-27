@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <item
+    <!-- <item
         android:id="@+id/root_menu"
         android:icon="@drawable/ic_menu_moreoverflow_normal_holo_light"
         android:showAsAction="always"
@@ -17,12 +17,12 @@
                 android:showAsAction="never"
                 android:title="About"/>
         </menu>
-    </item>
+    </item> -->
     
-    <item
+    <!-- <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/action_settings"/> -->
 
 </menu>

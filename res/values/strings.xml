@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">RecomioNews</string>
-    <string name="action_settings">Settings</string>
-    
-    <string name="hello_world">Hello world!</string>
     <string name="motto">나를 아는 뉴스</string>
+    <string name="app_name">뉴스포미</string>
+    <string name="app_explain_1">페이스북에 올린 글을 분석해</string>
+    <string name="app_explain_2">포털에서 볼 수 없는 나에게 딱 맞는 뉴스를</string>
+    <string name="app_explain_3">자동으로 추천해 드립니다.</string>
+    <string name="app_explain_4">지겹고 따분한 뉴스를 벗어나</string>
+    <string name="app_explain_5">나를 찾아온 다양한 컨텐츠를 만나보세요!</string>
     
+    <string name="summarization">본문 요약</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_intro">IntroActivity</string>
-    
-    <string name="app_id">642906452404778</string>
-    <string name="signin_by_facebook">SignIn by Facebook</string>
-    
+    <string name="signin_by_facebook">페이스북으로 로그인</string>
     <string name="prefs_name">RecomioNewsPrefsFile</string>
+    <string name="title_activity_article_summary">본문 보기</string>
+    <string name="show_original_article">기사 원문 보기</string>
+    <string name="why">왜</string>
+    
+    <string name="news">뉴스</string>
+    <string name="recommended_news">오늘의 추천 뉴스</string>
+    <string name="read_news">읽은 뉴스</string>
+    <string name="starred_news">별표한 뉴스</string>
+    <string name="scrapped_news">스크랩한 뉴스</string>
+    <string name="deleted_news">삭제한 뉴스</string>
+    <string name="shown_news">나왔던 뉴스</string>
+    
+    <string name="settings">설정</string>
+    <string name="logout">로그아웃</string>
+    
+    <string name="facebook_app_id">642906452404778</string>
+    <string name="flurry_api_key">XT6TD8HS954CD7WV9NX8</string>
 
 </resources>

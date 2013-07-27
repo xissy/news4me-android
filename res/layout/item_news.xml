@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:text=""
+            android:text="@string/summarization"
             android:textStyle="bold"
             android:textColor="#ff444444"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -103,7 +103,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginRight="20dp"
                 android:text=""
-                android:textColor="#ffaaaaaa" 
+                android:textColor="@color/icon_button_disabled" 
                 android:textSize="27sp" />
 
             <TextView
@@ -114,29 +114,18 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginRight="17dp"
                 android:text=""
-                android:textColor="#ffaaaaaa" 
-                android:textSize="27sp" />
-            
-            <TextView
-                android:id="@+id/saveText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/starText"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="17dp"
-                android:text=""
-                android:textColor="#ffaaaaaa"
+                android:textColor="@color/icon_button_disabled" 
                 android:textSize="27sp" />
             
             <TextView
                 android:id="@+id/shareText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toLeftOf="@id/saveText"
+                android:layout_toLeftOf="@id/starText"
                 android:layout_alignParentTop="true"
                 android:layout_marginRight="17dp"
                 android:text=""
-                android:textColor="#ffaaaaaa"
+                android:textColor="@color/icon_button_disabled"
                 android:textSize="27sp" />
 
         </RelativeLayout>

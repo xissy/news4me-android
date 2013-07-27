@@ -4,10 +4,95 @@
     android:layout_height="match_parent" >
 
     <com.facebook.widget.LoginButton
+        xmlns:fb="http://schemas.android.com/apk/res-auto"
         android:id="@+id/facebookLogInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        fb:login_text="@string/signin_by_facebook"
+        fb:logout_text="@string/logout" />
+
+    <ProgressBar
+        android:id="@+id/centeralProgressBar"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/mottoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/motto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffaaaaaa"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mottoText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff777777"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/explain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_explain_1" />
+
+        <TextView
+            android:id="@+id/explain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain1"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_explain_2" />
+
+        <TextView
+            android:id="@+id/explain3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain2"
+            android:layout_centerHorizontal="true"
+            android:text="@string/app_explain_3" />
+
+        <TextView
+            android:id="@+id/explain4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_explain_4" />
+
+        <TextView
+            android:id="@+id/explain5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/explain4"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="40dp"
+            android:text="@string/app_explain_5" />
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package io.recom.news;
+package io.recom.news4me.helper;
 
 import android.content.res.AssetManager;
 import android.graphics.Typeface;

@@ -1,7 +1,7 @@
-package io.recom.news.fragment;
+package io.recom.news4me.fragment;
 
 import io.recom.news.R;
-import io.recom.news.activity.MainActivity;
+import io.recom.news4me.activity.MainActivity;
 
 import java.util.Arrays;
 
@@ -47,7 +47,11 @@ public class LogInFragment extends Fragment {
 		authButton.setFragment(this);
 		authButton.setReadPermissions(Arrays.asList("email", "read_stream"));
 
+		aq.id(R.id.centeralProgressBar).visibility(View.GONE);
+
 		if (Session.getActiveSession().isOpened()) {
+			aq.id(R.id.centeralProgressBar).visibility(View.VISIBLE);
+
 			Intent intent = new Intent(getActivity(), MainActivity.class);
 			getActivity().startActivity(intent);
 
@@ -68,6 +72,8 @@ public class LogInFragment extends Fragment {
 
 	private void onSessionStateChange(Session session, SessionState state,
 			Exception exception) {
+		aq.id(R.id.centeralProgressBar).visibility(View.VISIBLE);
+
 		if (state == SessionState.OPENED) {
 			Request.executeMeRequestAsync(session,
 					new Request.GraphUserCallback() {
@@ -92,9 +98,15 @@ public class LogInFragment extends Fragment {
 								getActivity().startActivity(intent);
 
 								getActivity().finish();
+
+								aq.id(R.id.centeralProgressBar).visibility(
+										View.GONE);
 							}
 						}
 					});
+		} else if (state == SessionState.CLOSED
+				|| state == SessionState.CLOSED_LOGIN_FAILED) {
+			aq.id(R.id.centeralProgressBar).visibility(View.GONE);
 		}
 	}
 

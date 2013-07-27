@@ -1,16 +1,15 @@
-package io.recom.news.activity;
+package io.recom.news4me.activity;
 
 import io.recom.news.R;
-import io.recom.news.adapter.IntroFragmentAdapter;
+import io.recom.news4me.adapter.IntroFragmentAdapter;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 
 import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.viewpagerindicator.CirclePageIndicator;
 import com.viewpagerindicator.PageIndicator;
 
-public class IntroActivity extends SherlockFragmentActivity {
+public class IntroActivity extends FlurrySherlockFragmentActivity {
 
 	IntroFragmentAdapter introFragmentAdapter;
 	ViewPager introViewPager;
