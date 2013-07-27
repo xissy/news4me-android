@@ -135,6 +135,13 @@ public class MainActivity extends FlurrySherlockFragmentActivity {
 
 	@Override
 	public void onBackPressed() {
+		ActionsContentView actionContentView = (ActionsContentView) aq.id(
+				R.id.actionsContentView).getView();
+		if (actionContentView.isActionsShown()) {
+			actionContentView.showContent();
+			return;
+		}
+
 		Intent setIntent = new Intent(Intent.ACTION_MAIN);
 		setIntent.addCategory(Intent.CATEGORY_HOME);
 		setIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
