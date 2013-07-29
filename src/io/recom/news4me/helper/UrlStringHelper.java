@@ -1,5 +1,9 @@
 package io.recom.news4me.helper;
 
+import io.recom.news4me.model.ArticleActionType;
+import io.recom.news4me.model.AuthType;
+import io.recom.news4me.model.NewsType;
+
 public class UrlStringHelper {
 
 	static String baseUrl = "http://news.recom.io/api/v1";

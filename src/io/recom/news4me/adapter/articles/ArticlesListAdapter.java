@@ -3,12 +3,12 @@ package io.recom.news4me.adapter.articles;
 import io.recom.news4me.R;
 import io.recom.news4me.activity.IntroActivity;
 import io.recom.news4me.helper.AjaxHelper;
-import io.recom.news4me.helper.ArticleActionType;
-import io.recom.news4me.helper.AuthType;
-import io.recom.news4me.helper.NewsType;
 import io.recom.news4me.helper.TypefaceManager;
 import io.recom.news4me.helper.UrlStringHelper;
 import io.recom.news4me.model.Article;
+import io.recom.news4me.model.ArticleActionType;
+import io.recom.news4me.model.AuthType;
+import io.recom.news4me.model.NewsType;
 
 import java.util.ArrayList;
 import java.util.List;

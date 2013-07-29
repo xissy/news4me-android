@@ -1,6 +1,6 @@
 package io.recom.news4me.adapter.articles;
 
-import io.recom.news4me.helper.NewsType;
+import io.recom.news4me.model.NewsType;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 

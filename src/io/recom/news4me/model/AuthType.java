@@ -1,4 +1,4 @@
-package io.recom.news4me.helper;
+package io.recom.news4me.model;
 
 public enum AuthType {
 	Facebook("facebook"), Twitter("twitter");

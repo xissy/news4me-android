@@ -9,7 +9,7 @@ import io.recom.news4me.adapter.articles.RecommendedArticlesListAdapter;
 import io.recom.news4me.adapter.articles.ScrappedArticlesListAdapter;
 import io.recom.news4me.adapter.articles.ShownArticlesListAdapter;
 import io.recom.news4me.adapter.articles.StarredArticlesListAdapter;
-import io.recom.news4me.helper.NewsType;
+import io.recom.news4me.model.NewsType;
 import shared.ui.actionscontentview.ActionsContentView;
 import android.content.Intent;
 import android.content.SharedPreferences;
